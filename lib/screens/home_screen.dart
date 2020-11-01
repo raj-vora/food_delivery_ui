@@ -36,10 +36,10 @@ class _HomeScreenState extends State<HomeScreen> {
       body: ListView(
         children: [
           Padding(
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(15.0),
             child: TextField(
               decoration: InputDecoration(
-                contentPadding: EdgeInsets.symmetric(vertical: 15.0),
+                contentPadding: EdgeInsets.symmetric(vertical: 10.0),
                 fillColor: Colors.white,
                 filled: true,
                 border: OutlineInputBorder(

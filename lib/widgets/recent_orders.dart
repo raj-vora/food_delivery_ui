@@ -40,21 +40,21 @@ class RecentOrders extends StatelessWidget {
                         Text(
                           order.food.name,
                           style: TextStyle(
-                              fontSize: 18.0, fontWeight: FontWeight.bold),
+                              fontSize: 16.0, fontWeight: FontWeight.bold),
                           overflow: TextOverflow.ellipsis,
                         ),
                         SizedBox(height: 4.0),
                         Text(
                           order.restaurant.name,
                           style: TextStyle(
-                              fontSize: 16.0, fontWeight: FontWeight.w600),
+                              fontSize: 14.0, fontWeight: FontWeight.w600),
                           overflow: TextOverflow.ellipsis,
                         ),
                         SizedBox(height: 4.0),
                         Text(
                           order.date,
                           style: TextStyle(
-                              fontSize: 16.0, fontWeight: FontWeight.w600),
+                              fontSize: 14.0, fontWeight: FontWeight.w600),
                           overflow: TextOverflow.ellipsis,
                         ),
                       ],
@@ -93,7 +93,7 @@ class RecentOrders extends StatelessWidget {
           child: Text(
             'Recent Orders',
             style: TextStyle(
-              fontSize: 24.0,
+              fontSize: 20.0,
               fontWeight: FontWeight.w600,
               letterSpacing: 1.2,
             ),
@@ -103,7 +103,7 @@ class RecentOrders extends StatelessWidget {
           height: 120.0,
           child: ListView.builder(
             physics: BouncingScrollPhysics(),
-            padding: EdgeInsets.only(left: 10.0),
+            padding: EdgeInsets.only(left: 6.0),
             scrollDirection: Axis.horizontal,
             itemCount: currentUser.orders.length,
             itemBuilder: (BuildContext context, int index) {
