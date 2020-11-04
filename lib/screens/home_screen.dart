@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Theme.of(context).primaryColor,
                   ),
                 ),
-                hintText: 'Search Food or Restaurants',
+                hintText: 'Food or Restaurants',
                 prefixIcon: Icon(
                   Icons.search,
                   size: 30.0,
@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           RecentOrders(),
-          NearbyRestaurants(),
+          NearbyRestaurants(context),
         ],
       ),
     );

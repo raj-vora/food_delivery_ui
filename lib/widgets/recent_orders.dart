@@ -24,8 +24,8 @@ class RecentOrders extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15.0),
                   child: Image(
-                    height: 100.0,
-                    width: 100.0,
+                    height: MediaQuery.of(context).size.height / 6,
+                    width: MediaQuery.of(context).size.height / 6,
                     fit: BoxFit.cover,
                     image: AssetImage(order.food.imageUrl),
                   ),
