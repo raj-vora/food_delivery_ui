@@ -140,7 +140,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
             ],
           ),
           Padding(
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -204,7 +204,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
               ),
             ],
           ),
-          SizedBox(height: 10.0),
+          SizedBox(height: 5.0),
           Center(
             child: Text(
               'Menu',
