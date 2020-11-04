@@ -32,7 +32,7 @@ class RecentOrders extends StatelessWidget {
                 ),
                 Expanded(
                   child: Container(
-                    margin: EdgeInsets.all(12.0),
+                    margin: EdgeInsets.all(8.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -103,7 +103,7 @@ class RecentOrders extends StatelessWidget {
           height: 120.0,
           child: ListView.builder(
             physics: BouncingScrollPhysics(),
-            padding: EdgeInsets.only(left: 6.0),
+            padding: EdgeInsets.only(left: 10.0),
             scrollDirection: Axis.horizontal,
             itemCount: currentUser.orders.length,
             itemBuilder: (BuildContext context, int index) {
